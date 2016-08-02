@@ -14,6 +14,12 @@
 		047364151D50EC01002ACCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047364131D50EC01002ACCCC /* LaunchScreen.storyboard */; };
 		047364201D50EC01002ACCCC /* MiniPorjetSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473641F1D50EC01002ACCCC /* MiniPorjetSegueTests.swift */; };
 		0473642B1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473642A1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift */; };
+		047364391D50F13D002ACCCC /* EtudiantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047364381D50F13D002ACCCC /* EtudiantViewController.swift */; };
+		0473643B1D50F172002ACCCC /* ProfesseurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473643A1D50F172002ACCCC /* ProfesseurViewController.swift */; };
+		0473643D1D50F1BE002ACCCC /* AdministrateurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473643C1D50F1BE002ACCCC /* AdministrateurViewController.swift */; };
+		0473643F1D50FBCE002ACCCC /* EtudiantSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473643E1D50FBCE002ACCCC /* EtudiantSentViewController.swift */; };
+		047364411D50FBFD002ACCCC /* ProfesseurSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047364401D50FBFD002ACCCC /* ProfesseurSentViewController.swift */; };
+		047364431D50FC34002ACCCC /* AdministrateurSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047364421D50FC34002ACCCC /* AdministrateurSentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		047364261D50EC01002ACCCC /* MiniPorjetSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPorjetSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0473642A1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPorjetSegueUITests.swift; sourceTree = "<group>"; };
 		0473642C1D50EC01002ACCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047364381D50F13D002ACCCC /* EtudiantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtudiantViewController.swift; sourceTree = "<group>"; };
+		0473643A1D50F172002ACCCC /* ProfesseurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfesseurViewController.swift; sourceTree = "<group>"; };
+		0473643C1D50F1BE002ACCCC /* AdministrateurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministrateurViewController.swift; sourceTree = "<group>"; };
+		0473643E1D50FBCE002ACCCC /* EtudiantSentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtudiantSentViewController.swift; sourceTree = "<group>"; };
+		047364401D50FBFD002ACCCC /* ProfesseurSentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfesseurSentViewController.swift; sourceTree = "<group>"; };
+		047364421D50FC34002ACCCC /* AdministrateurSentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministrateurSentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				0473640A1D50EC01002ACCCC /* AppDelegate.swift */,
 				0473640C1D50EC01002ACCCC /* ViewController.swift */,
 				0473640E1D50EC01002ACCCC /* Main.storyboard */,
+				047364381D50F13D002ACCCC /* EtudiantViewController.swift */,
+				0473643E1D50FBCE002ACCCC /* EtudiantSentViewController.swift */,
+				0473643A1D50F172002ACCCC /* ProfesseurViewController.swift */,
+				047364401D50FBFD002ACCCC /* ProfesseurSentViewController.swift */,
+				0473643C1D50F1BE002ACCCC /* AdministrateurViewController.swift */,
+				047364421D50FC34002ACCCC /* AdministrateurSentViewController.swift */,
 				047364111D50EC01002ACCCC /* Assets.xcassets */,
 				047364131D50EC01002ACCCC /* LaunchScreen.storyboard */,
 				047364161D50EC01002ACCCC /* Info.plist */,
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0473643F1D50FBCE002ACCCC /* EtudiantSentViewController.swift in Sources */,
 				0473640D1D50EC01002ACCCC /* ViewController.swift in Sources */,
+				047364411D50FBFD002ACCCC /* ProfesseurSentViewController.swift in Sources */,
 				0473640B1D50EC01002ACCCC /* AppDelegate.swift in Sources */,
+				0473643D1D50F1BE002ACCCC /* AdministrateurViewController.swift in Sources */,
+				0473643B1D50F172002ACCCC /* ProfesseurViewController.swift in Sources */,
+				047364431D50FC34002ACCCC /* AdministrateurSentViewController.swift in Sources */,
+				047364391D50F13D002ACCCC /* EtudiantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
