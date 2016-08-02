@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0473640B1D50EC01002ACCCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473640A1D50EC01002ACCCC /* AppDelegate.swift */; };
+		0473640D1D50EC01002ACCCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473640C1D50EC01002ACCCC /* ViewController.swift */; };
+		047364101D50EC01002ACCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0473640E1D50EC01002ACCCC /* Main.storyboard */; };
+		047364121D50EC01002ACCCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047364111D50EC01002ACCCC /* Assets.xcassets */; };
+		047364151D50EC01002ACCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047364131D50EC01002ACCCC /* LaunchScreen.storyboard */; };
+		047364201D50EC01002ACCCC /* MiniPorjetSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473641F1D50EC01002ACCCC /* MiniPorjetSegueTests.swift */; };
+		0473642B1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473642A1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0473641C1D50EC01002ACCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047363FF1D50EC01002ACCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047364061D50EC01002ACCCC;
+			remoteInfo = MiniPorjetSegue;
+		};
+		047364271D50EC01002ACCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047363FF1D50EC01002ACCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047364061D50EC01002ACCCC;
+			remoteInfo = MiniPorjetSegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047364071D50EC01002ACCCC /* MiniPorjetSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniPorjetSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473640A1D50EC01002ACCCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0473640C1D50EC01002ACCCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0473640F1D50EC01002ACCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047364111D50EC01002ACCCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047364141D50EC01002ACCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047364161D50EC01002ACCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0473641B1D50EC01002ACCCC /* MiniPorjetSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPorjetSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473641F1D50EC01002ACCCC /* MiniPorjetSegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPorjetSegueTests.swift; sourceTree = "<group>"; };
+		047364211D50EC01002ACCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047364261D50EC01002ACCCC /* MiniPorjetSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPorjetSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473642A1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPorjetSegueUITests.swift; sourceTree = "<group>"; };
+		0473642C1D50EC01002ACCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047364041D50EC01002ACCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047364181D50EC01002ACCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047364231D50EC01002ACCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047363FE1D50EC01002ACCCC = {
+			isa = PBXGroup;
+			children = (
+				047364091D50EC01002ACCCC /* MiniPorjetSegue */,
+				0473641E1D50EC01002ACCCC /* MiniPorjetSegueTests */,
+				047364291D50EC01002ACCCC /* MiniPorjetSegueUITests */,
+				047364081D50EC01002ACCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047364081D50EC01002ACCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047364071D50EC01002ACCCC /* MiniPorjetSegue.app */,
+				0473641B1D50EC01002ACCCC /* MiniPorjetSegueTests.xctest */,
+				047364261D50EC01002ACCCC /* MiniPorjetSegueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047364091D50EC01002ACCCC /* MiniPorjetSegue */ = {
+			isa = PBXGroup;
+			children = (
+				0473640A1D50EC01002ACCCC /* AppDelegate.swift */,
+				0473640C1D50EC01002ACCCC /* ViewController.swift */,
+				0473640E1D50EC01002ACCCC /* Main.storyboard */,
+				047364111D50EC01002ACCCC /* Assets.xcassets */,
+				047364131D50EC01002ACCCC /* LaunchScreen.storyboard */,
+				047364161D50EC01002ACCCC /* Info.plist */,
+			);
+			path = MiniPorjetSegue;
+			sourceTree = "<group>";
+		};
+		0473641E1D50EC01002ACCCC /* MiniPorjetSegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				0473641F1D50EC01002ACCCC /* MiniPorjetSegueTests.swift */,
+				047364211D50EC01002ACCCC /* Info.plist */,
+			);
+			path = MiniPorjetSegueTests;
+			sourceTree = "<group>";
+		};
+		047364291D50EC01002ACCCC /* MiniPorjetSegueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0473642A1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift */,
+				0473642C1D50EC01002ACCCC /* Info.plist */,
+			);
+			path = MiniPorjetSegueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047364061D50EC01002ACCCC /* MiniPorjetSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0473642F1D50EC01002ACCCC /* Build configuration list for PBXNativeTarget "MiniPorjetSegue" */;
+			buildPhases = (
+				047364031D50EC01002ACCCC /* Sources */,
+				047364041D50EC01002ACCCC /* Frameworks */,
+				047364051D50EC01002ACCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniPorjetSegue;
+			productName = MiniPorjetSegue;
+			productReference = 047364071D50EC01002ACCCC /* MiniPorjetSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0473641A1D50EC01002ACCCC /* MiniPorjetSegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047364321D50EC01002ACCCC /* Build configuration list for PBXNativeTarget "MiniPorjetSegueTests" */;
+			buildPhases = (
+				047364171D50EC01002ACCCC /* Sources */,
+				047364181D50EC01002ACCCC /* Frameworks */,
+				047364191D50EC01002ACCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0473641D1D50EC01002ACCCC /* PBXTargetDependency */,
+			);
+			name = MiniPorjetSegueTests;
+			productName = MiniPorjetSegueTests;
+			productReference = 0473641B1D50EC01002ACCCC /* MiniPorjetSegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047364251D50EC01002ACCCC /* MiniPorjetSegueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047364351D50EC01002ACCCC /* Build configuration list for PBXNativeTarget "MiniPorjetSegueUITests" */;
+			buildPhases = (
+				047364221D50EC01002ACCCC /* Sources */,
+				047364231D50EC01002ACCCC /* Frameworks */,
+				047364241D50EC01002ACCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047364281D50EC01002ACCCC /* PBXTargetDependency */,
+			);
+			name = MiniPorjetSegueUITests;
+			productName = MiniPorjetSegueUITests;
+			productReference = 047364261D50EC01002ACCCC /* MiniPorjetSegueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047363FF1D50EC01002ACCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					047364061D50EC01002ACCCC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0473641A1D50EC01002ACCCC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 047364061D50EC01002ACCCC;
+					};
+					047364251D50EC01002ACCCC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 047364061D50EC01002ACCCC;
+					};
+				};
+			};
+			buildConfigurationList = 047364021D50EC01002ACCCC /* Build configuration list for PBXProject "MiniPorjetSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047363FE1D50EC01002ACCCC;
+			productRefGroup = 047364081D50EC01002ACCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047364061D50EC01002ACCCC /* MiniPorjetSegue */,
+				0473641A1D50EC01002ACCCC /* MiniPorjetSegueTests */,
+				047364251D50EC01002ACCCC /* MiniPorjetSegueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047364051D50EC01002ACCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047364151D50EC01002ACCCC /* LaunchScreen.storyboard in Resources */,
+				047364121D50EC01002ACCCC /* Assets.xcassets in Resources */,
+				047364101D50EC01002ACCCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047364191D50EC01002ACCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047364241D50EC01002ACCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047364031D50EC01002ACCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0473640D1D50EC01002ACCCC /* ViewController.swift in Sources */,
+				0473640B1D50EC01002ACCCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047364171D50EC01002ACCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047364201D50EC01002ACCCC /* MiniPorjetSegueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047364221D50EC01002ACCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0473642B1D50EC01002ACCCC /* MiniPorjetSegueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0473641D1D50EC01002ACCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047364061D50EC01002ACCCC /* MiniPorjetSegue */;
+			targetProxy = 0473641C1D50EC01002ACCCC /* PBXContainerItemProxy */;
+		};
+		047364281D50EC01002ACCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047364061D50EC01002ACCCC /* MiniPorjetSegue */;
+			targetProxy = 047364271D50EC01002ACCCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0473640E1D50EC01002ACCCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0473640F1D50EC01002ACCCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047364131D50EC01002ACCCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047364141D50EC01002ACCCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0473642D1D50EC01002ACCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0473642E1D50EC01002ACCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047364301D50EC01002ACCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniPorjetSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.MiniPorjetSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		047364311D50EC01002ACCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniPorjetSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.MiniPorjetSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		047364331D50EC01002ACCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniPorjetSegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.MiniPorjetSegueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniPorjetSegue.app/MiniPorjetSegue";
+			};
+			name = Debug;
+		};
+		047364341D50EC01002ACCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniPorjetSegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.MiniPorjetSegueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniPorjetSegue.app/MiniPorjetSegue";
+			};
+			name = Release;
+		};
+		047364361D50EC01002ACCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniPorjetSegueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.MiniPorjetSegueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniPorjetSegue;
+			};
+			name = Debug;
+		};
+		047364371D50EC01002ACCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniPorjetSegueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.MiniPorjetSegueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniPorjetSegue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047364021D50EC01002ACCCC /* Build configuration list for PBXProject "MiniPorjetSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473642D1D50EC01002ACCCC /* Debug */,
+				0473642E1D50EC01002ACCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0473642F1D50EC01002ACCCC /* Build configuration list for PBXNativeTarget "MiniPorjetSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047364301D50EC01002ACCCC /* Debug */,
+				047364311D50EC01002ACCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047364321D50EC01002ACCCC /* Build configuration list for PBXNativeTarget "MiniPorjetSegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047364331D50EC01002ACCCC /* Debug */,
+				047364341D50EC01002ACCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047364351D50EC01002ACCCC /* Build configuration list for PBXNativeTarget "MiniPorjetSegueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047364361D50EC01002ACCCC /* Debug */,
+				047364371D50EC01002ACCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047363FF1D50EC01002ACCCC /* Project object */;
+}
